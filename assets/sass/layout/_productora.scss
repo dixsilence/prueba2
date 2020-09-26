@@ -1,0 +1,28 @@
+.productora {
+    padding: 8vw;
+    // min-height: 100vh;
+    // margin-bottom: 100px;
+    .subtitulo {
+        color: $blanco;
+        font-size: $font-size-x-lg;
+        margin-top: 1rem;
+    }
+}
+
+.productora_img {
+    // height: auto;
+    width: 100%;
+}
+
+@media (min-width:764px) {
+    .productora {
+        margin-bottom: 0;
+    }
+    .productora_img {
+        height: auto;
+        max-width: 100%;
+    }
+    .productora .subtitulo {
+        font-size: $font-size-x-lg;
+    }
+}

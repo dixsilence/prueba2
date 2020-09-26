@@ -1,0 +1,24 @@
+// ul {
+//     list-style: none;
+//     padding: 0;
+// }
+.info__fondo {
+    background-color: rgba($color: $blanco, $alpha: 0.1);
+    padding: 10px;
+    margin: 10px;
+}
+
+#festival-ensamble {
+    width: 100%;
+    height: 100vh;
+    padding: 8vw;
+    background-image: linear-gradient( rgb(255, 65, 65), rgb(255, 102, 0));
+}
+
+#festival__btn__postular {
+    margin: 0!important;
+}
+
+#festival-bases ol {
+    padding: 0 1rem;
+}

@@ -1,0 +1,64 @@
+    // p {
+    //     font-size: $font-size-sm;
+    // }
+    /*Talleres*/
+    
+    #talleres {
+        // background-color: rgba(255, 255, 255, 0.3);
+        height: 100%;
+    }
+    
+    // .tarjetas {
+    //     background-image: linear-gradient(rgba(255, 255, 255, 1) rgba(158, 30, 30, 0));
+    // }
+    //Taller escenica
+    #taller__escenica {
+        // background-image: url(../img/brick.jpg);
+        // background-attachment: fixed;
+        background-color: black;
+    }
+    
+    .taller__foto {
+        width: 100%;
+    }
+    
+    // .taller__lista {
+    //     list-style: none;
+    //     padding: 0;
+    // }
+    .taller__img__perfil {
+        width: 50vw;
+    }
+    
+    @media (min-width:764px) {
+        .taller__lista {
+            list-style: numbers;
+        }
+        .taller__img__perfil {
+            width: 30vh;
+            height: 30vh;
+        }
+        // #taller-peces {
+        //     background-image: url(../img/fondo-isla.png)!important;
+        //     background-size: cover;
+        //     background-repeat: no-repeat;
+        //     min-height: 80vh;
+        //     h1,
+        //     p,
+        //     li {
+        //         color: $negro!important;
+        //     }
+        // }
+    }
+    
+    #video_31 iframe {
+        width: 80%;
+        position: relative;
+    }
+    
+    // #carrusel-ninos {
+    //     .carousel-item img {
+    //         max-width: 100%;
+    //         height: auto;
+    //     }
+    // }

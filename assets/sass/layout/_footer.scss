@@ -1,0 +1,40 @@
+/*FOOTER*/
+
+footer {
+    background-color: $negro;
+    // height: 100%;
+    padding-top: 5vh;
+    ul {
+        padding: 0;
+    }
+    li {
+        list-style: none;
+        font-size: 0.7rem;
+        color: white;
+        padding: 0;
+    }
+    h5 {
+        font-size: 1rem;
+        color: white;
+    }
+}
+
+.footer__copy {
+    color: white;
+    font-size: 0.7rem;
+}
+
+.logo__footer {
+    /* fill: white; */
+    width: 35vw;
+    /* height: 50%; */
+}
+
+@media (min-width: 769px) {
+    .logo__footer {
+        width: 15vw;
+    }
+    footer {
+        padding-top: 0;
+    }
+}

@@ -1,0 +1,42 @@
+.card {
+    // background-color: $naranjo1;
+    // background-color: $azul;
+    min-height: 60vh;
+    // height: 100%;
+}
+
+.card-body {
+    height: 100%;
+}
+
+.card-titulo {
+    color: $blanco;
+    font-size: $font-size-x-lg;
+    font-family: $font-titulo;
+    margin: 0;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.card-parrafo {
+    color: $blanco;
+    font-size: $font-size-sm;
+    text-align: justify;
+}
+
+.card-precio {
+    color: green;
+    font-weight: $font-weight-bold;
+}
+
+@media (min-width:764px) {
+    .card-titulo {
+        font-size: $font-size-x-lg;
+        // img {
+        //     min-height: 80%;
+        // }
+    }
+    .card-parrafo {
+        font-size: $font-size-md;
+    }
+}

@@ -1,0 +1,96 @@
+    /////////////////////
+    //Indicadores generales
+    /////////////////////
+    .carousel-indicators {
+        cursor: pointer;
+    }
+    
+    .carousel-indicators .active {
+        //Esto cambia todos los indicadores activos a este color
+        background-color: $rojo!important;
+    }
+    
+    #carousel-hero {
+        height: 50vh;
+    }
+    
+    // Carrusel del Hero
+    #carousel-hero .carousel-indicators li {
+        //Esto cambiael color y forma de los indicadores
+        height: 20px;
+        width: 20px;
+        border-radius: 20px;
+        margin-bottom: 10px;
+        background-color: $naranjo2;
+        display: none;
+    }
+    
+    @media (min-width:764px) {
+        #carousel-hero .carousel-indicators li {
+            //Esto cambiael color y forma de los indicadores
+            display: block;
+            height: 20px;
+            width: 20px;
+            border-radius: 20px;
+            margin-bottom: 10px;
+            background-color: $naranjo2;
+        }
+    }
+    
+    /////////////////////
+    //Carrusel hero
+    /////////////////////
+    #carrusel-hero-01 {
+        background-image: url(../img/bufanda.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    //Controladores (flechas)
+    #carousel-hero .carousel-control-next,
+    #carousel-hero .carousel-control-prev {
+        width: 50px;
+    }
+    
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        color: $naranjo2
+    }
+    
+    @media (min-width:764px) {
+        #carousel-hero .carousel-control-prev,
+        #carousel-hero .carousel-control-next {
+            display: none;
+        }
+    }
+    
+    /////////////////////
+    //Carrusel Producto
+    /////////////////////
+    /////////Pantallas MD/////////
+    @media (min-width: 764) {
+        //Estos controlan el movimiento del slide, si es más o menos van a verse traslapados
+        #carrusel-productos .carousel-inner .carousel-item-right.active,
+        #carrusel-productos .carousel-inner .carousel-item-next {
+            transform: translateX(33.3%);
+        }
+        #carrusel-productos .carousel-inner .carousel-item-left.active,
+        #carrusel-productos .carousel-inner .carousel-item-prev {
+            transform: translateX(-33.3%);
+        }
+        //Controladores (flechas)
+        #carrusel-productos .carousel-control-next {
+            width: 50px;
+            // background-color: $naranjo1!important;
+            right: -35px;
+        }
+        #carrusel-productos .carousel-control-prev {
+            width: 50px;
+            // background-color: $naranjo1!important;
+            left: -35px;
+        }
+        #carrusel-productos .carousel-inner .carousel-item-right,
+        #carrusel-productos .carousel-inner .carousel-item-left {
+            transform: translateX(0);
+        }
+    }

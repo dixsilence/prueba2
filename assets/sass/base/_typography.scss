@@ -1,0 +1,41 @@
+    /*Fuente*/
+    
+    //Títulos
+    $font-titulo: 'Londrina Solid',
+    cursive;
+    //Párrafos
+    // $font-basico: 'Noto Sans TC',
+    // sans-serif;
+    $font-basico: 'Ubuntu',
+    sans-serif;
+    ///
+    /*Font weight*/
+    
+    $font-weight-regular:400;
+    $font-weight-light:300;
+    $font-weight-bold:700;
+    /*Font sizes*/
+    
+    $font-size-xx-lg: 45px; //4.375rem//
+    $font-size-x-lg: 24px; //1.5rem//
+    $font-size-lg: 18px; //1.125//
+    $font-size-md: 14px; //1rem//
+    $font-size-sm: 12px; //0.75rem//
+    /*Párrafos*/
+    
+    .parrafo {
+        font-family: $font-basico;
+        font-size: $font-size-sm;
+        font-weight: $font-weight-regular;
+        margin-top: 15px;
+        margin-bottom: 25px;
+        // color: $blanco;
+        // text-align: justify;
+        //  line-height: 40px; //Interlineado//
+    }
+    
+    .titulo {
+        font-family: $font-titulo!important;
+        color: $blanco;
+        justify-content: center;
+    }

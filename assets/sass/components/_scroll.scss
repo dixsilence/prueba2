@@ -1,0 +1,28 @@
+ .scrolltop {
+     position: fixed;
+     right: 20px;
+     bottom: 20px;
+     border-radius: 3rem;
+     display: inline-block;
+     width: 4rem;
+     height: 4rem;
+     font-family: 'Sans-serif';
+     font-size: 3rem;
+     //  text-align: center;
+     //  text-decoration: none;
+     background-color: rgba($rojo, 0.75);
+     color: white;
+     visibility: hidden;
+     opacity: 0;
+     &:hover {
+         text-decoration: none;
+         color: white;
+     }
+     &:focus {
+         text-decoration: none;
+     }
+     &.active {
+         visibility: visible;
+         opacity: 1;
+     }
+ }

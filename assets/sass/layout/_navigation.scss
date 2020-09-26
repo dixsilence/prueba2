@@ -1,0 +1,45 @@
+.navbar {
+    z-index: 998;
+    background-color: $cafe;
+    height: 60px;
+}
+
+.buscar__campo {
+    border-radius: 1.25rem!important;
+}
+
+#navbarNav .nav-link {
+    padding: 40px;
+    text-align: center;
+    font-size: $font-size-lg;
+    &:hover {
+        color: $naranjo2;
+        text-decoration: underline;
+    }
+}
+
+.nav__logo {
+    // width: 10vh;
+    display: block;
+    height: 30px;
+}
+
+.navbar-toggler {
+    font-size: $font-size-sm;
+}
+
+// .navbar-collapse {
+// background-color: transparentize($cafe, 0.05);
+// margin-top: 15px;
+// height: 100vh;
+// }
+@media (min-width: 768px) {
+    #navbarNav .nav-link {
+        padding: 0px;
+        text-align: center;
+        font-size: $font-size-lg;
+    }
+    .navbar-collapse {
+        margin-top: 0;
+    }
+}

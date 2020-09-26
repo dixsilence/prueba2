@@ -1,0 +1,14 @@
+.btn__principal {
+    background-color: $rojo;
+    color: $blanco;
+    box-shadow: none!important;
+    &:hover {
+        // text-decoration: none;
+        color: $cafe;
+        background-color: $naranjo2;
+    }
+    &:focus {
+        text-decoration: none;
+        background-color: red;
+    }
+}
